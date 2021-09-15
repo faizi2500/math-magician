@@ -40,7 +40,6 @@ body {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
-
 .input {
   background-color: #e0e0e0;
   margin: 0;
@@ -54,7 +53,6 @@ body {
   display: grid;
   grid-template-columns: 50% 25% 25%;
   grid-template-rows: 100%;
-
 }
 
 .orange-btn {
