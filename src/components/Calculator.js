@@ -1,4 +1,5 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 // import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
@@ -15,9 +16,8 @@ class Calculator extends React.Component {
   eventClicked(e) {
     console.log(e.target.textContent);
     const { total, next, operation } = this.state;
-    console.log(total);
-    console.log(operation);
-    console.log(next);
+    this.setState(calculate({ total, next, operation }, e.target.textContent));
+    console.log(this.state);
   }
 
   render() {
@@ -50,9 +50,9 @@ class Calculator extends React.Component {
           <button onClick={this.eventClicked} type="button" className="input orange-btn">+</button>
         </div>
         <div className="last-row">
-          <button type="button" className="input">0</button>
-          <button type="button" className="input">.</button>
-          <button type="button" className="input orange-btn">=</button>
+          <button onClick={this.eventClicked} type="button" className="input">0</button>
+          <button onClick={this.eventClicked} type="button" className="input">.</button>
+          <button onClick={this.eventClicked} type="button" className="input orange-btn">=</button>
         </div>
       </div>
     );
