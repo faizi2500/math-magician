@@ -40,6 +40,12 @@ body {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: #fff;
+}
+
 .input {
   background-color: #e0e0e0;
   margin: 0;
