@@ -1,6 +1,5 @@
 import React from 'react';
 import calculate from '../logic/calculate';
-// import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -14,10 +13,8 @@ class Calculator extends React.Component {
   }
 
   eventClicked(e) {
-    console.log(e.target.textContent);
     const { total, next, operation } = this.state;
     this.setState(calculate({ total, next, operation }, e.target.textContent));
-    console.log(this.state);
   }
 
   render() {
