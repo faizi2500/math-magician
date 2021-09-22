@@ -65,3 +65,55 @@ button:hover {
   background-color: #f5913e;
   color: #422c14;
 }
+
+.navLinks {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.hoverLink:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.home-parent {
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.home-heading {
+  padding-bottom: 3%;
+  font-size: 3.5rem;
+}
+
+.home-para {
+  font-size: 1.15rem;
+  line-height: 35px;
+}
+
+.quote-page {
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 15%;
+  background-color: gainsboro;
+  border: 1px black solid;
+}
+
+.quote-page p {
+  width: 85%;
+  margin-inline: auto;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+
+.quote-page h2 {
+  margin-top: 1.5%;
+  width: 85%;
+  margin-inline: auto;
+  padding-bottom: 5%;
+}
