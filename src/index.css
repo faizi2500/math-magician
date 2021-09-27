@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
+}
+
+.calculator {
+  width: 60%;
+  border: black 1px solid;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.answer {
+  width: 100%;
+  height: 75px;
+  background-color: grey;
+  text-align: right;
+}
+
+.show-answer {
+  margin-right: 1%;
+  font-size: 1.8rem;
+  line-height: normal;
+  position: relative;
+  top: 40%;
+  vertical-align: middle;
+  color: white;
+}
+
+.calc-panel {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: #fff;
+}
+
+.input {
+  background-color: #e0e0e0;
+  margin: 0;
+  color: #404041;
+  text-align: center;
+  height: 70px;
+  font-size: 1.5rem;
+}
+
+.last-row {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 100%;
+}
+
+.orange-btn {
+  background-color: #f5913e;
+  color: #422c14;
+}
+
+.navLinks {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.hoverLink:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.home-parent {
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.home-heading {
+  padding-bottom: 3%;
+  font-size: 3.5rem;
+}
+
+.home-para {
+  font-size: 1.15rem;
+  line-height: 35px;
+}
+
+.quote-page {
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 15%;
+  background-color: gainsboro;
+  border: 1px black solid;
+}
+
+.quote-page p {
+  width: 85%;
+  margin-inline: auto;
+  font-size: 1.8rem;
+  padding-top: 5%;
+}
+
+.quote-page h2 {
+  margin-top: 1.5%;
+  width: 85%;
+  margin-inline: auto;
+  padding-bottom: 5%;
+}
