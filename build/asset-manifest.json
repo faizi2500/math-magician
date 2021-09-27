@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/faizi2500/math-magicianstatic/css/main.e52b4a3e.chunk.css",
+    "main.js": "/faizi2500/math-magicianstatic/js/main.666a2d9d.chunk.js",
+    "main.js.map": "/faizi2500/math-magicianstatic/js/main.666a2d9d.chunk.js.map",
+    "runtime-main.js": "/faizi2500/math-magicianstatic/js/runtime-main.74f71101.js",
+    "runtime-main.js.map": "/faizi2500/math-magicianstatic/js/runtime-main.74f71101.js.map",
+    "static/js/2.5069a27b.chunk.js": "/faizi2500/math-magicianstatic/js/2.5069a27b.chunk.js",
+    "static/js/2.5069a27b.chunk.js.map": "/faizi2500/math-magicianstatic/js/2.5069a27b.chunk.js.map",
+    "index.html": "/faizi2500/math-magicianindex.html",
+    "static/css/main.e52b4a3e.chunk.css.map": "/faizi2500/math-magicianstatic/css/main.e52b4a3e.chunk.css.map",
+    "static/js/2.5069a27b.chunk.js.LICENSE.txt": "/faizi2500/math-magicianstatic/js/2.5069a27b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74f71101.js",
+    "static/js/2.5069a27b.chunk.js",
+    "static/css/main.e52b4a3e.chunk.css",
+    "static/js/main.666a2d9d.chunk.js"
+  ]
+}
