@@ -48,9 +48,25 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "netlify-cli": "^6.9.18",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.20.1"
-  }
+  },
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faizi2500/math-magician.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Faizan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faizi2500/math-magician/issues"
+  },
+  "homepage": "https://github.com/faizi2500/math-magician#readme"
 }
